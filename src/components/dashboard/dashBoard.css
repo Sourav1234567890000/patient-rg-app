@@ -1,0 +1,157 @@
+/* .pat-div-style {
+    padding: 20px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    border-radius: 12px;
+    box-shadow: 6px 6px cornflowerblue;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.other-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+    top: 62px;
+    position: relative;
+}
+
+.pat-count :hover {
+    background-color: #f0f0f0;  
+    cursor: pointer;
+    transform: scale(1.02); 
+}
+
+.Rg-other-tabs {
+    width: 191px;
+    height: 50px;
+    padding: 46px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.Rg-other-tabs:hover {
+    background-color: #f0f0f0;  
+    cursor: pointer;
+    transform: scale(1.02);     
+} */
+
+
+
+.outer-Db-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: aliceblue;
+    border-radius: 12px;
+    box-shadow: 6px 6px cornflowerblue;
+    animation: bounceIn 1s ease;
+    margin: 20px;
+  }
+  
+  .header-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header-title h1 {
+    font-size: 28px;
+    color: #007DFE;
+    margin-bottom: 10px;
+  }
+  
+  .header-title p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .pat-div-style {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(100, 149, 237, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .pat-div-style:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 4px 10px rgba(100, 149, 237, 0.4);
+  }
+  
+  .pat-count {
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .tot-pat h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .other-tabs {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .Rg-other-tabs {
+    width: 180px;
+    height: 100px;
+    background-color: #DBE3F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 6px rgba(100, 149, 237, 0.3);
+    text-align: center;
+  }
+  
+  .Rg-other-tabs:hover {
+    background-color: cornflowerblue;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 10px rgba(100, 149, 237, 0.4);
+  }
+
+  .patient-count-number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007DFE;
+    margin-top: 5px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .outer-Db-page {
+      padding: 20px 10px;
+    }
+  
+    .pat-div-style,
+    .Rg-other-tabs {
+      width: 100%;
+    }
+  
+    .other-tabs {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .header-title h1 {
+      font-size: 24px;
+    }
+  
+    .header-title p {
+      font-size: 13px;
+    }
+  }
+  
